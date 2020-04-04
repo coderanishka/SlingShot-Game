@@ -8,10 +8,6 @@ var box1;
 var backgroundImg,platform;
 var slingShot,pbox;
 
-function preload(){
-    monkey = loadImage("monkey.png");
-}
-
 function setup(){
  var canvas = createCanvas(1200,400);
  engine = Engine.create();
